@@ -1,0 +1,77 @@
+
+/* layout della pagina */
+*{
+    box-sizing: border-box;
+}
+
+/* layout sfondo e font */
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* layout blocco centrale */
+.container{
+    margin: 1% 19%;
+    border-radius: 2%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5%;
+    text-align: center;
+    
+}
+
+.spazio{
+    margin-bottom: 2%;
+}
+
+
+/* header */
+h1{
+    color: rgba(0,221,0,255)
+}
+
+.barrainput{
+    background-color: rgba(0,221,0,255);
+    padding: 1%;
+}
+
+
+
+
+/* main */
+/* layout main */
+main{
+    text-align: left;
+    color: white;
+}
+
+h2{
+    display: inline-block;
+    margin-bottom: auto;
+}
+
+/* layout barre di carica */
+.barra1{
+    background-color: rgba(245,180,83,255);
+    padding: 1.5%;
+    width: 40%;
+    border-radius: 30px;
+}
+
+.barra2{
+    background-color: rgba(30,195,30,255);
+    padding: 1.5%;
+    width: 60%;
+    border-radius: 30px;    
+}
+
+.barra3{
+    background-color: rgba(190,65,65,255);
+    padding: 1.5%;
+    width: 10%;
+    border-radius: 30px;      
+}
+
+
